@@ -1,8 +1,7 @@
 class Application < Sinatra::Base
- 
-  get '/hello' do
-    irb:hello
-  end
- 
-end
 
+  get '/hello' do
+    erb:hello
+  end
+
+end
